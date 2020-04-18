@@ -11,7 +11,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/about', (request, response) => {
-    response.render('me')
+    response.render('about')
 })
 
 
